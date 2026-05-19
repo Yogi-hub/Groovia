@@ -9,7 +9,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 EXA_API_KEY = os.getenv("EXA_API_KEY")
 
-MAIN_MODEL_NAME   = os.getenv("MAIN_MODEL_NAME",   "llama-3.3-70b-versatile")
+MAIN_MODEL_NAME   = os.getenv("MAIN_MODEL_NAME",   "openai/gpt-oss-20b")
 REVIEW_MODEL_NAME = os.getenv("REVIEW_MODEL_NAME", "llama-3.1-8b-instant")
 TEMPERATURE = 0.0
 
